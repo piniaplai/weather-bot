@@ -22,7 +22,7 @@ actions:
   - utter_bye
   - utter_its_nice_to_meet_you
   #- action_get_weather
-  - actions.weather.ActionGetWeather
+  - actions.ActionGetWeather
 
 templates:
   utter_default:
