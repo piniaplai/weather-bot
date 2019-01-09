@@ -55,6 +55,20 @@
 - I am [Pierce Brosnan](PERSON)
 - My name is [Martin Novak](PERSON)
 
+## intent:identify_gpe
+- what is [Czech Republic](GPE)
+- what is [New Zealand](GPE)
+- what is [China](GPE)
+- what is [India](GPE)
+- what is [Romania](GPE)
+
+## intent:identify_person
+- what is [Martin](PERSON)
+- what is [Jack](PERSON)
+- what is [Steven](PERSON)
+- what is [Jim](PERSON)
+- what is [Sara](PERSON)
+
 ## synonym:Prague
 - Czech Republic
 - Czechia

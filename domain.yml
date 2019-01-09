@@ -15,12 +15,16 @@ intents:
   - bye
   - my_name_is
   - get_weather
+  - identify_gpe
+  - identify_person
 
 actions:
   - utter_greeting
   - utter_how_i_am
   - utter_bye
   - utter_its_nice_to_meet_you
+  - utter_gpe
+  - utter_person
   #- action_get_weather
   - actions.ActionGetWeather
 
@@ -42,3 +46,7 @@ templates:
   utter_its_nice_to_meet_you:
     - It's nice to meet you, {PERSON}.
     - Nice to meet you, {PERSON}.
+  utter_gpe:
+    - That's a GPE!
+  utter_person:
+    - That's a Person!

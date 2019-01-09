@@ -17,8 +17,9 @@ from rasa_core.policies.memoization import MemoizationPolicy
 
 
 def train_nlu():
+    configuration = "nlu-config.yml"
     training_data = load_data('data/nlu-data.md')
-    trainer = Trainer(config.load("nlu-config.yml"))
+    trainer = Trainer(config.load(configuration))
     trainer.train(training_data)
     model_directory = trainer.persist('models/nlu/', fixed_model_name="current")
     return model_directory

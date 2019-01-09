@@ -17,3 +17,11 @@
 ## my name is
 * my_name_is
 - utter_its_nice_to_meet_you
+
+## identify gpe
+* identify_gpe
+- utter_gpe
+
+## identify person
+* identify_person
+- utter_person
